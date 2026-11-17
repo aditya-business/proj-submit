@@ -6,6 +6,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/proj-submit/',
+
     plugins: [
       react(),
       tailwindcss(),
